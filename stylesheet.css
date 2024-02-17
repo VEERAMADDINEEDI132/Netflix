@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: blue;
+    color: hsl(328, 79%, 26%);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    width: 100px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hero {
+    position: relative;
+    height: 400px;
+    background: url('veera.avif') center/cover no-repeat;
+    color: #851616;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(49, 15, 131, 0.5);
+    color: #a25817;
+}
+
+.hero-content {
+    z-index: 1;
+    color: #8bb83e;
+}
+.email{
+    width: 100%;
+    height: fit-content;
+    background-color: yellow;
+    display: flex;
+    align-items: flex-start;
+    
+}
+.email input{
+    outline: none;
+    border: none;
+    padding: 12px 10px;
+    size: 1em;
+    
+}
+.email button{
+    height: fit-content;
+    background-color: #c41313;
+    color: #fff;
+    padding: 12px 10px;
+    text-decoration: none;
+}
+
+footer {
+    background-color: gray;
+    color: #c41313;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+ 
